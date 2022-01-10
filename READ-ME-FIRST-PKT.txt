@@ -1,0 +1,25 @@
+###########################################################
+
+
+A nossa rede criada foi implementada de uma maneira simplificada,
+em que apenas inserimos 1 router por cada FD (Floor Distributor) á qual adicionamos
+um PC.
+
+Cada PC está em uma sub rede diferente da rede 192.168.10.0;
+
+Todos as sub-redes sao /27;
+
+O indereço de cada PC é o primeiro indereço disponivel da sua sub rede;
+
+O indereço dos gateways é o ultimo indereço disponivel da sua sub rede:
+
+A ligação entre Routers internos e o ISP foi feita atraves da rede 10.0.0.0 /28, 
+sendo a do ISP 10.0.0.9;
+
+Todos os PC's conseguem pingar a rede 10.0.0.9
+
+Francisco Sousa 2019137258
+Vítor Simões 2019127806
+
+
+####################################################
